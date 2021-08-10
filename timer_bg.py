@@ -30,7 +30,7 @@ def next():
 		my_canvas.create_image(0,0, image=our_images[count+1], anchor='nw')	
 		count += 1
 
-	root.after(1000, next)
+	root.after(2000, next)
 
 next()
 mainloop()
